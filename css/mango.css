@@ -1,0 +1,44 @@
+.skills-icon {
+    float: left; 
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.skills-icon h4 {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.my-5 h3 {
+    margin-bottom: 15px;
+}
+
+.resume-link {
+    display: block;
+    margin-top: 15px;
+}
+
+#contact-section i {
+    padding-right: 2px;
+    font-size: 18px;
+}
+
+#contact-section{
+    text-align: center;
+}
+
+/******************************************
+/* MEDIA QUERIES */
+/*******************************************/
+/* MQ FOR MOBILE DEVICE */
+@media only screen and (max-width:767px) {
+    .mobile-hide{
+        display: none;
+    }
+
+    #contact-section a{
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+  
+} /* END MQ FOR MOBILE DEVICE */
