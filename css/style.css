@@ -637,13 +637,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .burger.active:before, .burger.active:after {
   top: 40%; }
 
-.burger.active span:before {
+.burger.active :before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-5);
   /*for IE*/ }
 
-.burger.active span:after {
+.burger.active :after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-5);
